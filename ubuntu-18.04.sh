@@ -31,7 +31,7 @@ pip install Cython numpy
 
 
 # talib
-echo "installing talib ... (you should have more then 1Gb free of ram)"
+echo "installing talib ... (you should have more then 1Gb free of ram. enabling swap can help for low ram systems)"
 sudo apt-get -y install libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev
 
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz -q
